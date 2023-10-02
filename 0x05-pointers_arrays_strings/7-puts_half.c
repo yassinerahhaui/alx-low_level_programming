@@ -18,11 +18,11 @@ void puts_half(char *str)
 	c = n - 1;
 	if (c % 2 == 0)
 	{
-		b = (n / 2) - 1;
+		b = n / 2;
 	}
 	else 
 	{
-		b = ((n - 1) / 2) - 1;
+		b = (n + 1) / 2;
 	}
 	while (str[b] != '\0')
 	{
