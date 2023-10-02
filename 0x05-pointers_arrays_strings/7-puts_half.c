@@ -20,9 +20,9 @@ void puts_half(char *str)
 	{
 		b = n / 2;
 	}
-	else 
+	else
 	{
-		b = (n + 1) / 2;
+		b = ((n + 1) / 2) + 1;
 	}
 	while (str[b] != '\0')
 	{
