@@ -16,10 +16,13 @@ void puts_half(char *str)
 		n++;
 	}
 	c = n - 1;
-	b = n / 2;
-	if (c % 2 != 0)
+	if (c % 2 == 0)
 	{
-		b -= 1;
+		b = n / 2;
+	}
+	else 
+	{
+		b = (n - 1) / 2;
 	}
 	while (str[b] != '\0')
 	{
